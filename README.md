@@ -1,2 +1,2 @@
 # Tenzies
-(demo)[https://steady-mandazi-4acae6.netlify.app]
+[demo](https://steady-mandazi-4acae6.netlify.app)
