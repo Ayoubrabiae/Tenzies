@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-export function Timer({ tenzies }) {
+export default function Timer({ tenzies }) {
 
   const [count, setCount] = React.useState(() => 0)
   const [min, setMin] = React.useState(() => 0)
