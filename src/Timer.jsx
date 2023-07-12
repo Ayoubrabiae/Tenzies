@@ -17,6 +17,8 @@ export default function Timer({ tenzies }) {
         localStorage.setItem("sec", count)
         localStorage.setItem("min", min)
       }
+      setCount(0)
+      setMin(0)
       clearInterval(counter)
     }
     return () => clearInterval(counter)
