@@ -3,7 +3,7 @@ import Confetti from "react-confetti"
 import './App.css'
 import { Die } from './Die'
 import { nanoid } from "nanoid"
-import Timer from './timer'
+import Timer from './Timer'
 import RollTracker from './RollTracker'
 
 export default function App() {
