@@ -1,6 +1,6 @@
 import { nanoid } from "nanoid"
 import PropTypes from 'prop-types';
-export function Die({ value, isHeld, holdDice }) {
+export default function Die({ value, isHeld, holdDice }) {
 
   let spans = []
 
